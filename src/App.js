@@ -1,19 +1,18 @@
-import logo from './logo.svg';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Section from './components/Section';
+import Titolo from './components/Titolo';
 import './App.css';
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
-
 export default function App() {
+
   return (
     <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
+      <Header/>
+      <Titolo/>
+      <Section/>
+      <Footer/>
     </div>
   );
 }
