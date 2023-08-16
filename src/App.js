@@ -1,18 +1,11 @@
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Section from './components/Section';
-import Titolo from './components/Titolo';
-import './App.css';
+import Homepage from './pages/Homepage';
+import '/Users/formazionequinck/Desktop/workspace/react-quick-start/src/App.css';
 
 export default function App() {
-
-  return (
+    return (
     <div>
-      <Header/>
-      <Titolo/>
-      <Section/>
-      <Footer/>
+      <Homepage/>
     </div>
   );
 }
