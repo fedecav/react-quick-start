@@ -1,11 +1,12 @@
 
-import Homepage from './pages/Homepage';
-import '/Users/formazionequinck/Desktop/workspace/react-quick-start/src/App.css';
+import SupportUs from './pages/SupportUs';
+import './App.css';
+import About from './pages/About/About';
 
 export default function App() {
     return (
     <div>
-      <Homepage/>
+      <SupportUs/>
     </div>
   );
 }
