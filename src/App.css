@@ -10,13 +10,15 @@ h1{
 }
 
 header {
-    padding: 1rem;
+    width: 100%;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
 }
 
 .option {
+
     color:black;
     display: inline-block;
     font-size: larger;
@@ -64,14 +66,6 @@ header {
     margin: 30px;
 }
 
-.script {
-    color: white;
-}
-
-.square-space {
-    display: flex;
-    justify-content: space-evenly
-}
 
 .script {
     display: flex;
@@ -97,37 +91,6 @@ header {
     justify-content: center;
     color: grey;
     font-size: larger;
-}
-
-.card-text{
-    width: 300px;
-}
-
-.card-imagine{
-    width: 200px;
-}
-
-.final-part{
-    height: 200px;
-    background-color: black;
-}
-
-.statistics{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-
-.final-script{
-    padding: 8px;
-    font-size: larger;
-    color: white;
-}
-
-.final-script-2{
-    padding: 0.2rem;
-    font-size: larger;
-    color: white;
 }
 
 .server{

@@ -1,17 +1,16 @@
-import Header from '../../components/Header.js';
-import SideBar from '../../components/sidebar/Sidebar.js';
-import Footer from '../../components/Footer.js';
-import SectionDocs from '../../components/section/SectionDocs.js';
+import Header from '../../components/Header/Header.js';
+import Footer from '../../components/Footer/Footer.js';
+import SectionDocs from '../../components/Sidebar/sectionDocs/SectionDocs.js';
+import './Docs.css'
 
 export default function Docs(){
     return(
     <>
-        <div>
         <Header />
-        <div><SideBar/></div>
-       <SectionDocs/>
-        <Footer />
+        <div>
+            <SectionDocs/>
         </div>
+        <Footer />
     </>
     )
 }

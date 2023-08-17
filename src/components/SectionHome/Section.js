@@ -1,6 +1,6 @@
 import React from 'react';
 import LineCards from './LineCards';
-import '../App.css';
+import './SectionHome.css';
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);

@@ -1,14 +1,20 @@
+.script-Docs{
+    text-align: center;
+    font-style: normal;
+}
+
+.main {
+    margin-left: 160px; 
+    font-size: 10px; 
+    padding: 10px;
+}
+
 .sidenav {
     height: 100%;
     width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: white;
     overflow-x: hidden;
     padding-top: 20px;
-    margin-top: 4rem;
   }
   
   .sidenav a {
@@ -29,10 +35,6 @@
     padding: 0px 10px;
   }
   
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
   .script{
     padding: 1rem;
@@ -43,3 +45,4 @@
   .script:hover{
     color: rgb(255, 152, 0);
   }
+

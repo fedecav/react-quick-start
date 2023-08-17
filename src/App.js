@@ -1,12 +1,11 @@
 
-import SupportUs from './pages/SupportUs';
 import './App.css';
-import About from './pages/About/About';
+import Docs from './pages/Docs/Docs';
 
 export default function App() {
     return (
     <div>
-      <SupportUs/>
+      <Docs/>
     </div>
   );
 }

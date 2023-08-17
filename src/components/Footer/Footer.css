@@ -1,0 +1,22 @@
+.final-script-2{
+    padding: 0.2rem;
+    font-size: larger;
+    color: white;
+}
+
+.statistics{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.final-script{
+    padding: 8px;
+    font-size: larger;
+    color: white;
+}
+
+.final-part{
+    height: 200px;
+    background-color: black;
+}
