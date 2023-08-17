@@ -1,11 +1,10 @@
-import Footer from '../components/Footer.js';
-import Header from '../components/Header.js';
-
+import Footer from "../../components/Footer/Footer.js";
+import HeaderStandard from '/Users/formazionequinck/Desktop/workspace/react-quick-start/src/components/Header-standard/HeaderStandard.js';
 export default function SupportUs(){
     return(
         <>
-        <Header />
-        <h1>support the rick and morty API</h1>
+        <HeaderStandard />
+        <h1>CIAO</h1>
         <Footer/>
         </>
     )

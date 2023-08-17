@@ -1,5 +1,5 @@
 import React from 'react';
-import LineCards from './LineCards';
+import LineCards from '/Users/formazionequinck/Desktop/workspace/react-quick-start/src/components/Linecards/LineCards.js';
 import './SectionHome.css';
 
 function getRandomInt(max) {

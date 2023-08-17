@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from '/Users/formazionequinck/Desktop/workspace/react-quick-start/src/components/Card/Card.js';
 
 function LineCards(props){
     return(

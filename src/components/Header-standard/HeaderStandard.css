@@ -1,5 +1,4 @@
 .option {
-
     color:black;
     display: inline-block;
     font-size: larger;
@@ -26,17 +25,19 @@
     color: white;
 }
 
-h1{
-    color:black;
-    text-align: center;
-    font-size: 300%;
-    font-family: Verdana;
-}
 
 header {
-    width: 100%;
+    padding: 1rem;
     display: flex;
-    position: fixed;
     justify-content: space-between;
     align-items: center;
 }
+
+.padding-signal{
+    padding: 1rem;
+}
+
+.fixed{
+    position: fixed;
+}
+ 

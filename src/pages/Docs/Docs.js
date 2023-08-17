@@ -1,15 +1,13 @@
-import Header from '../../components/Header/Header.js';
+import HeaderStandard from '../../components/Header-standard/HeaderStandard.js';
 import Footer from '../../components/Footer/Footer.js';
-import SectionDocs from '../../components/Sidebar/sectionDocs/SectionDocs.js';
 import './Docs.css'
+import SectionDocs from '../../components/sectionDocs/SectionDocs.js';
 
 export default function Docs(){
     return(
     <>
-        <Header />
-        <div>
-            <SectionDocs/>
-        </div>
+        <HeaderStandard />
+        <SectionDocs/>
         <Footer />
     </>
     )

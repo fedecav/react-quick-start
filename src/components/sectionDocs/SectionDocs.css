@@ -1,0 +1,37 @@
+.docs-container{
+  display: flex;
+  padding-top: 74.5px;
+}
+
+.docs-sidebar{
+  text-align: center;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.docs-content{
+  width: 100%;
+}
+
+.script-t{
+    padding: 1rem;
+    cursor: pointer;
+    color: black;
+  }
+
+.script-t:hover{
+    color: rgb(255, 152, 0);
+  }
+
+.little-title{
+  font-weight: 400;
+}
+
+.container{
+  padding-top: 2rem;
+}
+
+.paragraph{
+  margin-left: 300px;
+}

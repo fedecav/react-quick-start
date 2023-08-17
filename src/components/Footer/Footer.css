@@ -20,3 +20,9 @@
     height: 200px;
     background-color: black;
 }
+
+.server{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}

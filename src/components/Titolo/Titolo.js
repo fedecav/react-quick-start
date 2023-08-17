@@ -1,5 +1,5 @@
 import React from "react";
-import './Titolo.css'
+import './titolo.css'
 
 function Titolo(){
     return(
