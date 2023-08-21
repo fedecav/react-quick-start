@@ -1,9 +1,9 @@
-import Footer from "../../components/Footer/Footer.js";
-import HeaderStandard from '/Users/formazionequinck/Desktop/workspace/react-quick-start/src/components/Header-standard/HeaderStandard.js';
+import Footer from '../../components/Footer/Footer.js';
+import Header from '../../components/Header-standard/Header.js';
 export default function SupportUs(){
     return(
         <>
-        <HeaderStandard />
+        <Header fixed={false}/>
         <h1>CIAO</h1>
         <Footer/>
         </>

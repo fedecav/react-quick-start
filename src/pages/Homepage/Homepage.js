@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import HeaderStandard from '../../components/Header-standard/HeaderStandard.js';
+import Header from '../../components/Header-standard/Header.js';
 import Footer from '../../components/Footer/Footer';
 import Section from '../../components/SectionHome/Section.js'
 import Titolo from '../../components/Titolo/Titolo.js'
+
 
 
 function getRandomInt(max) {
@@ -26,7 +27,7 @@ export default function Homepage() {
 
     return (
     <div>
-      <HeaderStandard/>
+      <Header fixed={false}/>
       <Titolo/>
       {characters && <Section characterData={characters}/>}
       <Footer/>

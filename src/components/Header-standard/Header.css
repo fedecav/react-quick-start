@@ -38,6 +38,10 @@ header {
 }
 
 .fixed{
+    display: flex;
     position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
 }
  
